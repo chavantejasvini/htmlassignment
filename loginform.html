@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LOGIN FORM</title>
+	<style type="text/css">
+
+		.mdiv
+		{
+			height: 100vh;
+			width: 100%;
+			position: fixed;
+			background-image: url(https://img.freepik.com/premium-photo/abstract-3d-illustration-neon-glowing-frame_250994-203.jpg);
+
+			background-repeat: no-repeat;
+			background-size: cover;
+			top: 0px;
+			left: 0px;
+		}
+		.head
+		{
+			color: white;
+			font-size: 30px;
+			font-weight: bolder;
+			margin-left: 1px;
+			font-family: elephant;
+			letter-spacing: 3px;
+			text-align: center;
+
+		}
+		.lgnfrm
+		{
+			margin: 15% 45%;
+			width: 200px;
+			height: 100px;
+			
+		}
+		input
+		{
+			width: 95%;
+			margin-top: 10px;
+			height: 20px;
+			background-color: transparent;
+			border: none;
+			border-bottom: 2px solid white;
+			color: whitesmoke;
+		}
+		input:focus
+		{
+			outline: none;
+			background-color: transparent;
+		}
+		input[type="button"]
+		{
+			border: none;
+			background-color: cyan;
+			height: 30px;
+			color: black;
+			font-size: 15px;
+			border-radius: 10px;
+			margin-bottom: 10px;
+			transition-duration: 1s;
+		}
+		input[type="button"]:hover
+		{
+			background-color: transparent;
+			color: white;
+			border: 2px solid grey;
+			transform:scale(1.1);
+			cursor: pointer;		
+		}
+		a{
+			color: lawngreen;
+			text-decoration: none;
+		}
+		.b
+		{
+			border: 2px solid black;
+			padding: 5px;
+			border-spacing: 5px;
+			text-align: center;
+			border-radius: 10%;
+			box-shadow: 10px 10px 0px cyan;
+		}
+		
+
+	</style>
+</head>
+<body>
+
+	<div class="mdiv">
+		<div class="lgnfrm">
+			<form class="b">
+				<h2 class="head">WELCOME</h2><br>
+				<input type="text" name="un" placeholder="USERNAME" class="ip1"><br><br>
+				<input type="password" name="password" placeholder="password" class="ip1"><br><br>
+				<span> <a href="#">Forgot Password</a> </span><br><br>
+				<input type="Button" name="submit" value="LOGIN"><br><br>
+
+			</form>
+		</div>
+	</div>
+</body>
+</html>
